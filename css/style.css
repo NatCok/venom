@@ -1,0 +1,55 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  max-width: 1140px;
+  margin: auto;
+  margin-bottom: 80px;
+}
+.logo_link {
+  display: inline-block;
+  margin-right: 50px;
+}
+.nav_menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+.nav_item {
+  margin-right: 30px;
+}
+.nav_link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.film_date {
+  display: block;
+  font-size: 24px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 40px;
+}
+.logo_venom {
+  margin-bottom: 40px;
+}
+.film_discriph {
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 423px;
+  height: 66px;
+}
