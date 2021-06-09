@@ -53,3 +53,40 @@ body {
   max-width: 423px;
   height: 66px;
 }
+
+.button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button_text {
+  font-size: 14px;
+  margin-left: 10px;
+}
+.buttom_icon,
+.button_text {
+  display: inline-block;
+  vertical-align: middle;
+}
+.button_firt {
+  color: #800019;
+}
+.button_link {
+  color: #fff;
+}
+.button_title_group {
+  margin-top: 70px;
+  margin-bottom: 177px;
+}
+.venom {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.blood {
+  background-image: url(../img/blood.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
